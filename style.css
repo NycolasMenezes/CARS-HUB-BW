@@ -159,7 +159,7 @@ main h1 {
     margin: 40px 0px -20px 0px;
 }
 
-main img {
+main img#mainimg {
     width: 50%;
     display: block;
     margin: auto;
@@ -167,6 +167,7 @@ main img {
     border: 3px solid rgba(0, 0, 0, 0.922);
     border-radius: 5px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.575);
+    margin-top: 50px;
 
     transition-property: transform;
     transition-duration: 0.4s;
@@ -174,15 +175,24 @@ main img {
     transition-delay: 0s;
 }
 
-main img:hover {
+p#fichatec {
+    position: absolute;
+    text-indent: 0px;
+}
+
+/*main img:hover {
     box-shadow: 6px 6px 20px black;
     transform: translateY(10px);
-}
+}*/
 
 main img.pq {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+.mainimgmov {
+    transform: translateX(18vw);
 }
 
 main > p {
@@ -196,6 +206,8 @@ main > p {
     text-shadow: 0px 0px 0px;
     margin: 20px;
 }
+
+
 
 main a {
     color: black;
